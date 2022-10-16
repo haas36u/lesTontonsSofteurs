@@ -98,7 +98,7 @@
                 src="https://www.google.com/maps/d/u/2/embed?mid=1KNYahGQVgiEIkFUhj2AZEte8PzqAU14&ehbc=2E312F"></iframe>
         </div>
         <div>
-            <?php $recent = new WP_Query("page_id=145"); while($recent->have_posts()) : $recent->the_post();?>
+            <?php $recent = new WP_Query("page_id=25"); while($recent->have_posts()) : $recent->the_post();?>
             <h4><?php the_title(); ?></h4>
             <div id="rules-content">
                 <?php the_excerpt() ?>
