@@ -1,0 +1,11 @@
+ /* FOOTER */
+ footer {
+    background-color: #34302f;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer p {
+    margin: 1rem 0;
+}

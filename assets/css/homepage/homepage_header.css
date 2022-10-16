@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+header#homepage-header {
+    height: 100vh;
+    background-image: url("../../images/header_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header#homepage-header img{
+    width: 150px;
+    margin-top: 2rem;
+}
+
+header#homepage-header h1 {
+    text-transform: uppercase;
+    font-family: 'Black Ops One', cursive;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    text-align: center;
+    text-shadow: #000 8px 6px 14px;
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    color: #d7d7d7;
+    margin-bottom: 4rem;
+}
+
+/*MENU*/
+header#homepage-header nav {
+    background-color: rgba(19, 19, 19, 0.82);
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+header#homepage-header nav .menu-left-menu-container, header#homepage-header nav .menu-right-menu-container {
+    flex: 1 1 0;
+}
+header#homepage-header nav #menu-left-menu {
+    display: flex;
+    justify-content: end;
+}
+header#homepage-header nav .nav-menu {
+    display: flex;
+    padding: 0;
+}
+header#homepage-header nav .nav-menu li {
+    margin: 0 0.5rem;
+    list-style-type: none;
+}
+header#homepage-header nav .nav-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 1.2rem;
+    text-decoration: none;
+}
+header#homepage-header #organization-infos {
+   border-left: 1px solid #ffffff; 
+   border-right: 1px solid #ffffff; 
+   text-align: center;
+   margin: 0 0.5rem;
+}
+header#homepage-header #organization-infos p {
+    margin: 0 1.5rem;
+    color: #ffffff;
+ }
