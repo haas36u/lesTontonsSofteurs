@@ -95,7 +95,7 @@
 
             <!-- TODO : use a tontons softeurs google account to save the map-->
             <iframe
-                src="https://www.google.com/maps/d/u/1/embed?mid=131zw75AC4nxk_1jLbSyo80sCXz3bkUQ&ehbc=2E312F"></iframe>
+                src="https://www.google.com/maps/d/u/2/embed?mid=1KNYahGQVgiEIkFUhj2AZEte8PzqAU14&ehbc=2E312F"></iframe>
         </div>
         <div>
             <?php $recent = new WP_Query("page_id=145"); while($recent->have_posts()) : $recent->the_post();?>
