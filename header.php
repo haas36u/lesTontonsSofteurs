@@ -58,7 +58,7 @@
 -->
     <header id="common-header">
         <a href="/">
-            <img src="/wordpress/wp-content/uploads/2022/07/logo.png" alt="Tontons Softeurs logo">
+            <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Tontons Softeurs logo">
         </a>
         <nav>
             <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>

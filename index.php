@@ -34,13 +34,13 @@
 
     <div id="homepage-pictures">
         <div>
-            <a href="/wordpress/2022/08/12/photos-op/">
+            <a href="?page_id=35">
                 <button>Voir photos du terrain</button>
             </a>
         </div>
 
         <div>
-            <a href="/wordpress/2022/08/12/les-photos-des-joueurs/">
+            <a href="?page_id=33">
                 <button>Voir photos des joueurs</button>
             </a>
         </div>
