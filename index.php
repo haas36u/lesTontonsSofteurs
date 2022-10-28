@@ -23,30 +23,9 @@
         <h1>Les Tontons Softeurs</h1>
         <nav>
             <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>
-            <!--<div id="organization-infos">
-                <p>Président: Phanou</p>
-                <p>Orga: Phanou</p>
-                <p>Référent: Phanou</p>
-            </div>-->
             <?php wp_nav_menu( array('menu' => 'Right menu', 'menu_class' => 'nav-menu' ) ); ?>
         </nav>
     </header>
-
-    <!--
-    <div id="homepage-pictures">
-        <div>
-            <a href="?page_id=35">
-                <button>Voir photos du terrain</button>
-            </a>
-        </div>
-
-        <div>
-            <a href="?page_id=33">
-                <button>Voir photos des joueurs</button>
-            </a>
-        </div>
-    </div>
--->
 
     <div id="second-section">
         <div id="communication-container">
@@ -78,16 +57,6 @@
                 </div>
             </div>
         </div>
-        <!--
-        <div>
-            <div id="members-area-container">
-                <h4>Espace adhérent</h4>
-            </div>
-            <div id="invited-area-container">
-                <h4>Espace invitée</h4>
-            </div>
-        </div>
-                    -->
     </div>
 
     <div id="homepage-map-rules">
@@ -97,7 +66,6 @@
             <p>70360 Scey-sur-Saône-et-Saint-Albin</p>
             <p>15 min de Vesoul</p>
 
-            <!-- TODO : use a tontons softeurs google account to save the map-->
             <iframe
                 src="https://www.google.com/maps/d/u/2/embed?mid=1KNYahGQVgiEIkFUhj2AZEte8PzqAU14&ehbc=2E312F"></iframe>
         </div>
