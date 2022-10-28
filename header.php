@@ -62,11 +62,6 @@
         </a>
         <nav>
             <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>
-            <div id="organization-infos">
-                <p>Président: Phanou</p>
-                <p>Orga: Phanou</p>
-                <p>Référent: Phanou</p>
-            </div>
             <?php wp_nav_menu( array('menu' => 'Right menu', 'menu_class' => 'nav-menu' ) ); ?>
         </nav>
     </header>
