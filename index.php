@@ -23,15 +23,16 @@
         <h1>Les Tontons Softeurs</h1>
         <nav>
             <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>
-            <div id="organization-infos">
+            <!--<div id="organization-infos">
                 <p>Président: Phanou</p>
                 <p>Orga: Phanou</p>
                 <p>Référent: Phanou</p>
-            </div>
+            </div>-->
             <?php wp_nav_menu( array('menu' => 'Right menu', 'menu_class' => 'nav-menu' ) ); ?>
         </nav>
     </header>
 
+    <!--
     <div id="homepage-pictures">
         <div>
             <a href="?page_id=35">
@@ -45,6 +46,7 @@
             </a>
         </div>
     </div>
+-->
 
     <div id="second-section">
         <div id="communication-container">
@@ -76,6 +78,7 @@
                 </div>
             </div>
         </div>
+        <!--
         <div>
             <div id="members-area-container">
                 <h4>Espace adhérent</h4>
@@ -84,6 +87,7 @@
                 <h4>Espace invitée</h4>
             </div>
         </div>
+                    -->
     </div>
 
     <div id="homepage-map-rules">
