@@ -47,11 +47,11 @@
 
 /*SECOND SECTION -- COM / MEMBER AREA CONTAINER*/
 #second-section {
-    display: block;
+    display: flex;
     flex-direction: row;
 }
 #second-section>div {
-    width: 100%;
+    width: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,6 @@
 }
 #second-section #communication-container>div {
     display: flex;
-    justify-content: center;
     padding: 0.5rem;
 }
 #second-section #communication-container>div>div:first-child {
