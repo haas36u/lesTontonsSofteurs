@@ -22,13 +22,7 @@
         <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Tontons Softeurs logo">
         <h1>Les Tontons Softeurs</h1>
         <nav>
-            <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>
-            <div id="organization-infos">
-                <p>Président: Phanou</p>
-                <p>Orga: Phanou</p>
-                <p>Référent: Phanou</p>
-            </div>
-            <?php wp_nav_menu( array('menu' => 'Right menu', 'menu_class' => 'nav-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'max_mega_menu_1' ) ); ?>
         </nav>
     </header>
 

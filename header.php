@@ -12,57 +12,15 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/footer.css" type="text/css"
         media="screen" />
     <?php wp_head(); ?>
-    <style>
-    .nav-menu {
-        position: relative;
-    }
-
-    .nav-menu li {
-        line-height: 88px;
-    }
-
-    .nav-menu li:hover>ul {
-        display: block;
-        opacity: 1;
-        transition: opacity 0.5s;
-    }
-
-    .sub-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        z-index: 99999;
-        background: #333;
-        box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
-        padding: 0 1rem;
-    }
-
-    .sub-menu li {
-        padding: 0.5rem 0;
-        line-height: normal;
-    }
-
-    .sub-menu li a {
-        text-transform: capitalize;
-    }
-    </style>
 </head>
 
 <body <?php body_class(); ?>>
-
-    <!--
-<div id="site-header">
-	<h1><?php bloginfo('title') ?></h1>
-</div>
--->
     <header id="common-header">
         <a href="/">
             <img src="<?php bloginfo('template_url'); ?>/assets/images/logo.png" alt="Tontons Softeurs logo">
         </a>
         <nav>
-            <?php wp_nav_menu( array('menu' => 'Left menu', 'menu_class' => 'nav-menu' ) ); ?>
-            <?php wp_nav_menu( array('menu' => 'Right menu', 'menu_class' => 'nav-menu' ) ); ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'max_mega_menu_1' ) ); ?>
         </nav>
     </header>
 

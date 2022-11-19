@@ -35,37 +35,14 @@ header#homepage-header nav {
     padding: 1rem 0;
     width: 100%;
     display: flex;
-    align-items: center;
-justify-content: center;
+    justify-content: center;
 }
-header#homepage-header nav .menu-left-menu-container, header#homepage-header nav .menu-right-menu-container {
-    flex: 1 1 0;
+#mega-menu-wrap-max_mega_menu_1 {
+    background-color: transparent !important;
 }
-header#homepage-header nav #menu-left-menu {
-    display: flex;
-    justify-content: end;
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item > a.mega-menu-link {
+    text-transform: uppercase !important;
+    background: transparent !important;
+    font-size: 1rem !important;
+    color: #ffffff !important;
 }
-header#homepage-header nav .nav-menu {
-    display: flex;
-    padding: 0;
-}
-header#homepage-header nav .nav-menu li {
-    margin: 0 0.5rem;
-    list-style-type: none;
-}
-header#homepage-header nav .nav-menu li a {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 1.2rem;
-    text-decoration: none;
-}
-header#homepage-header #organization-infos {
-   border-left: 1px solid #ffffff; 
-   border-right: 1px solid #ffffff; 
-   text-align: center;
-   margin: 0 0.5rem;
-}
-header#homepage-header #organization-infos p {
-    margin: 0 1.5rem;
-    color: #ffffff;
- }
