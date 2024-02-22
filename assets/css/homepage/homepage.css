@@ -1,3 +1,16 @@
+/* CLASS */
+button.big-button {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    color: #3687FF;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 3px solid #3687FF;
+    background: rgba(255, 255, 255, 0.7);
+}
+
 /* HOMEPAGE PICTURES */
 #homepage-pictures {
     display: flex;
@@ -18,19 +31,6 @@
 }
 #homepage-pictures div:last-child {
     background-image: url('../../images/player_bg.png');
-}
-#homepage-pictures button {
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    box-sizing: border-box;
-    font-size: 1.2rem;
-    color: #3687FF;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: 3px solid #3687FF;
-}
-#homepage-pictures div:first-child button {
-    background: rgba(255, 255, 255, 0.7);
 }
 #homepage-pictures div:last-child button {
     background: rgba(60, 60, 60, 0.7);

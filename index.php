@@ -29,12 +29,12 @@
     <div id="homepage-pictures">
         <div>
             <a href="?page_id=35">
-                <button>Voir photos du terrain</button>
+                <button class="big-button">Voir photos du terrain</button>
             </a>
         </div>
         <div>
             <a href="?page_id=33">
-                <button>Voir photos des joueurs</button>
+                <button class="big-button">Voir photos des joueurs</button>
             </a>
         </div>
     </div>
@@ -72,9 +72,15 @@
         <div>
             <div id="members-area-container">
                 <h4>Espace adhérent</h4>
+                <a href="/espace-adherent">
+                    <button class="big-button">Voir espace adhérent</button>
+                </a>
             </div>
             <div id="invited-area-container">
                 <h4>Espace invitée</h4>
+                <a href="/espace-invite">
+                    <button class="big-button">Voir espace invitée</button>
+                </a>
             </div>
         </div>
     </div>
