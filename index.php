@@ -7,8 +7,8 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/common.css" type="text/css"
         media="screen" />
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/homepage/homepage.css" type="text/css"
-        media="screen" />
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/homepage/homepage.css?version=1"
+        type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/homepage/homepage_header.css"
         type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/footer.css" type="text/css"
